@@ -1,0 +1,29 @@
+.app{
+    
+    border-radius: 40px;
+    background-color: white;
+    height: 120vh;
+    
+}
+
+.content{
+    display: flex;
+    align-items:flex-start;
+}
+.main{
+    display: flex;
+}
+
+@media (max-width: 900px){
+	.main {
+		flex-direction: column;
+		align-items: center;
+		height: 100vh;
+		overflow-y: auto;
+        overflow-x:hidden;
+		padding: 10px;
+	}
+    .app{
+        height: 100vh;
+    }
+}

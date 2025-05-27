@@ -1,0 +1,337 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    /* background-color: beige; */
+    width:600px;
+    padding-top:130px;
+}
+
+.top{
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    gap:310px;
+    margin-left:20px;
+}
+.top_1{
+    display:flex;
+    align-items: center;
+}
+.top h2{
+    font-size: 23px;
+    color:#272476;
+    font-weight:bold;
+}
+
+.top p{
+    font-size:14px;
+    color:#272476;
+    font-weight: 600;
+}
+.top img{
+    width:14px;
+    margin-left:10px;
+}
+/* 
+for body */
+.body-health{
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+}
+.body-part{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:270px;
+    height:400px;
+    background-color: #f6f9ff;
+    border-radius:20px;
+
+}
+
+.human-body{
+    width:240px;
+    padding-top:10px;
+}
+.zoom-icon{
+    position: absolute;
+    width:20px;
+    margin-left:auto;
+    top:4%;
+    right:4%;
+    
+}
+.leg ,.heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:2;
+    position: absolute;
+    gap:10px;
+    
+}
+.leg{
+    top:59%;
+    right:49%;
+}
+.heart{
+    top:21%;
+    left:50%;
+}
+.healthy-leg,.healthy-heart {
+    display: flex;
+    align-items: center;
+    padding:10px 18px;
+    border-radius: 8px;
+    gap:10px;
+    width:80px;
+    height:20px;
+
+}
+.healthy-heart{
+    color:white;
+    background-color: #272476;
+}
+.healthy-leg{
+    background-color:#12d1db;
+    color:#2c2e65
+}
+.healthy-leg img ,.healthy-heart img{
+    
+    width:14px;
+}
+.healthy-heart p,.healthy-leg p{
+    font-size: 9px;
+}
+.scan{
+    width: 35px;
+}
+
+/* body-part1 right side */
+
+.body-part2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:10px;
+    margin-top:-30px;
+    margin-right:-10px;
+}
+.lungs{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:15px;
+    width:180px;
+    height:100px;
+    background-color: #f6f9ff;
+    border-radius: 20px;
+    padding-top:10px;
+    margin-left:-10px;
+}
+.lungs_1{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:20px;
+    color:#272476;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.lungs span{
+    color:rgb(171, 169, 169);
+    font-size: 11px;
+}
+.lungs_1 img{
+    width:25px;
+}
+
+.bar{
+    width:65%;
+    background-color: #cdced0;
+    margin: 0 30px;
+    height:7px;
+    border-radius: 20px;
+}
+.indicator{
+    width:70%;
+    background-color: rgb(220, 84, 84);
+    height:7px;
+    border-radius: 20px;
+}
+.details img{
+    width:10px;
+}
+.details span{
+    font-size:14px;
+    color:#272476;
+    font-weight: 600;
+    margin-left:100px;
+    margin-right:10px;
+} 
+.details{
+    margin-bottom:-20px;
+}
+
+
+/* activity char csss */
+
+.Activity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    width:550px;
+    background-color: #f6f9ff;
+    border-radius: 20px;
+    margin-bottom:50px;
+    margin-top:10px;
+    padding: 15px 0px;
+}
+
+.activity_top{
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    gap:250px;
+}
+.activity_top h1{
+    color:#272476;
+    font-weight: 600;
+    font-size: 16px;
+}
+.activity_top span{
+    font-size: 14px;
+    color:#a8a8a9;
+}
+
+.activity_bars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding:15px -30px;
+}
+.ap_1,.ap_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.ap_1 div, .ap_2 div{
+    width:4px;
+    border-radius:10px;
+    box-sizing: border-box;
+    
+}
+
+.ap_11,.ap_12,.ap_131,.ap_132,.ap_14,.ap_211,.ap_212,.ap_22,.ap_231,.ap_232,.ap_24{
+    background-color: #cdced0;
+}
+.aqua{
+    background-color: #12d1db;
+}
+.violet{
+    background-color: #2529a1;
+}
+.ap_11,.ap_21{
+    height: 80px;  
+}
+.ap_21{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:4px;
+}
+.ap_21 div{
+    height:39px;
+    width:4px;
+}
+.ap_12 ,.ap_22,.ap_13,.ap_23{
+    height:40px
+}
+.ap_13,.ap_23{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height:38px;
+    gap:4px;
+    margin-top:15px;
+}
+.ap_13 div,.ap_23 div{
+    height:17px;
+    width:4px;
+}
+.ap_14,.ap_24{
+    margin-top:50px;
+    height:22px;
+}
+
+.week{
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    gap:35px;
+    font-size: 14px;
+    font-weight: 500;
+    color:#a8a8a9;
+}
+
+@media (max-width: 1200px) and (min-width:900px) {
+	.dashboard {
+		width:550px;
+	}
+}
+@media (max-width: 550px){
+    .dashboard{
+        width:100%;
+    }
+    .top h2{
+        font-size: 16px;
+    }
+    .top p{
+        font-size: 12px;
+    }
+    .top img{
+        width:14px;
+    }
+    .body-part{
+        width:48%;
+        height:fit-content;
+        margin-left:40px;
+    }
+    .human-body{
+        width:80%;
+    }
+    .body-part2{
+        width:48%;
+        height:fit-content;
+    }
+    .scan{
+        width:20px;
+    }
+    .healthy-leg,.healthy-heart{
+        width:50px;
+    }
+    .lungs{
+        height: fit-content;
+        width:80%;
+    }
+    .lungs img{
+        width: 20px;
+    }
+    .Activity,.activity_top,.activity_bars{
+        width:auto;
+    }
+}

@@ -1,0 +1,183 @@
+.appointment{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    width:520px;
+    height: 101vh;
+    background-color:#f6f9ff  ;
+    margin:10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-top:110px;
+}
+
+.calender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:90%;
+    gap:10px;
+}
+
+.calender-top{
+    display: flex;
+    gap:280px;
+}
+.calender h2{
+    font-size: 17px;
+    font-weight: 600;
+    color:#272476;
+}
+.arrows{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.arrows img{
+    width:20px;
+}
+
+.calender-dates{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+}
+.sunday div {
+  color:rgb(146, 146, 209);
+}
+.calender-day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+}
+.day-label,.timeslot{
+    font-size: 12px;
+    color:#3734a9;
+    font-weight: 600;
+}
+.date-label{
+    font-size: 16px;
+    font-weight: 600;
+    color:#3734a9;
+}
+.timeslot{
+    margin-top:15px;
+}
+
+.active{
+    background-color: #ecf2ff  ;
+    border-radius:16px;
+    padding:14px 22px;
+}
+.selected-tues{
+    background-color: #3734a9;
+    color:white;
+    border-radius: 12px;
+    padding:8px 15px;
+    margin:-10px -15px;
+    margin-top:10px;
+}
+.selected-other{
+    background-color: #b6bfe4;
+    color:white !important;
+    border-radius: 12px;
+    padding:8px 15px;
+    margin:-10px -15px;
+    margin-top:10px;
+}
+/* appointments */
+.ap-doc{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.dent,.physio{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    border-radius: 16px;
+    padding:15px 10px;
+    gap:10px;
+}
+.tooth,.arm{
+    display: flex;
+    gap:30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.ap-doc h2{
+    font-size: 14px;
+}
+.tooth img,.arm img{
+    width:20px;
+}
+.tooth{
+    gap:80px;
+}
+.dent{
+    background-color:rgb(46, 46, 153) ;
+    color:rgb(252, 246, 246);
+}
+.physio{
+    background-color: #dde2f9;
+}
+
+/* upcoming schedule */
+
+.schedule{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.schedule h1{
+    font-size: 18px;
+    font-weight: 600;
+    color:#3734a9;
+}
+.schedule h2{
+    font-size: 16px;
+    font-weight: 500;
+    color:#a8a8a9;
+}
+.schedule-box{
+    display: flex;
+    align-items: flex-start;
+    gap:15px;
+}
+.s-box{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding:15px 10px;
+    background-color:#dde2f9;
+    border-radius: 16px;
+    color:#2d2a86;
+}
+.s-box p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.s-box1{
+    display: flex;
+    gap:20px;
+    font-weight: 600;   
+}
+.s-box img{
+    width:20px;
+}
+.type-label{
+    font-size: 15px;
+}
+
+@media (max-width: 550px){
+    .appointment,.calender,.calender-top,.calnder-dates,.ap-doc,.dent,.physio{
+        width:auto;
+    }
+}
