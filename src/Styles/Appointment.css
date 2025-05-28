@@ -180,4 +180,9 @@
     .appointment,.calender,.calender-top,.calnder-dates,.ap-doc,.dent,.physio{
         width:auto;
     }
+    .appointment{
+        padding-top:20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
 }
